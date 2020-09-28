@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #00C9A7;
-  --seconday-color: #EB7732;
+  --primary-color: #00c9a7;
+  --secondary-color: #eb7732;
 }
 
 body {
@@ -33,13 +33,7 @@ input {
 }
 
 .button-reset {
-  background-color: var(--seconday-color);
-}
-
-.screen-reader-text {
-  left: -9999px;
-  position: absolute;
-  top: -9999px;
+  background-color: var(--secondary-color);
 }
 
 .flex {
@@ -48,4 +42,18 @@ input {
 
 .flex--justify-center {
   justify-content: center;
+}
+
+.is-error {
+  border: solid thin var(--secondary-color);
+}
+
+.is-success {
+  border: solid thin var(--primary-color);
+}
+
+.screen-reader-text {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
 }
